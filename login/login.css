@@ -5,13 +5,25 @@
     box-sizing: border-box;
 }
 
+
+
 .principal{
     width: 400px;
+    height: 400px;
     min-height: 100px;
+    margin: 120px auto;
+    background: azure;
+    font-family: 'roboto', cursive, arial;
 }
 
 
 h3{
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgba(0,0,0,5);
+    color: grey;
+}
+h6{
     text-align: center;
     margin-bottom: 10px;
     color: rgba(0,0,0,5);
@@ -24,26 +36,58 @@ span{
 
 input {
     display: block;
-    padding: 10px;
+    padding: 5px;
+    width: 80%;
+    margin: 20px;
+    font-size: 20px;
+     border-radius: 10px;
+}
+label{
+    display: block;
     width: 100%;
-    margin: 15px 0;
-    border-radius: 10px;
+    margin: 20px;
     font-size: 20px;
 }
 
 input[type="submit"] {
-    background: linear-gradient(blue,#FF8940);
+    background: linear-gradient(blue,#5879c4);
     border:5px;
-    color: brown;
-     width: 50%;
+    color: black;
+     width: 30%;
     opacity: 0.8;
     cursor: pointer;
     border-radius: 20px;
     margin-bottom: 10px;
+    margin-left: 120px;
+}
+
+.text .password{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.text .formulario{
+    text-decoration: none;
+    float: right;
+    margin-right: 60px;
 }
 
 input[type="submit"]:hover {
-    opacity: 1;
+    color: azure;
+    opacity: 5%;
+}
+
+input[type="texto"]:hover {
+    background: #141212;
+    color: white;
+    padding: 8px;
+    opacity: 5%;
+}
+input[type="Password"]:hover {
+      background: #141212;
+    padding: 8px;
+    color: white;
+    opacity: 5%;
 }
 
 input[type="submit"]:active {
@@ -52,13 +96,13 @@ input[type="submit"]:active {
 
 @media(max-width:768px){
     .principal{
-      width: 75%;
+      width: 60%;
     }
 }
 
 @media(max-width:480px){
-    div{
-      width: 90%;
+    .principal{
+      width: 85%;
     }
 }
 
