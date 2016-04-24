@@ -1,3 +1,19 @@
 *{
  background-color: blue;
 }
+
+form{
+    margin: auto;
+    width: 50%;
+    max-width: 500px;
+    background: #44a29b;
+    padding: 30px;
+    border: 1px solid rgba(0,0,0,0.2)
+
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color:rgba(0,0,0,0.5)
+}
