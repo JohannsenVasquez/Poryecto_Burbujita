@@ -34,3 +34,7 @@ input[type="subnit"]{
     cursor: pointer;
 
 }
+input[type="subnit":hover]{
+    opacity: 1;
+}
+
