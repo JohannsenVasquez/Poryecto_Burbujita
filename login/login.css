@@ -12,8 +12,8 @@
     height: 400px;
     min-height: 100px;
     margin: 120px auto;
-    background: azure;
     font-family: 'roboto', cursive, arial;
+    border-radius: 10px;
 }
 
 
@@ -50,7 +50,7 @@ label{
 }
 
 input[type="submit"] {
-    background: linear-gradient(blue,#5879c4);
+    background: linear-gradient(#2929bf,#7c94cb);
     border:5px;
     color: black;
      width: 30%;
@@ -73,18 +73,19 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
+    background: linear-gradient(#0000ff,#1347b9);
     color: azure;
     opacity: 5%;
 }
 
 input[type="texto"]:hover {
-    background: #141212;
+    background: #807b7b;
     color: white;
     padding: 8px;
     opacity: 5%;
 }
 input[type="Password"]:hover {
-      background: #141212;
+      background: #807b7b;
     padding: 8px;
     color: white;
     opacity: 5%;
