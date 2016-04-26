@@ -60,7 +60,9 @@ input[type="submit"] {
     margin-bottom: 10px;
     margin-left: 120px;
 }
-
+.text .ingresar{
+     text-decoration: none;
+}
 .text .password{
     margin-left: 20px;
     text-decoration: none;
