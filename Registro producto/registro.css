@@ -1,21 +1,146 @@
 /* Curso CSS estilos aprenderaprogramar.com*/
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  background: azure;
+    padding: 0px;
+    margin: 0px;
+}
+
+h3{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    color: blue;
+    text-align: center;
 }
 .reg{
-    
+    margin: 0 auto;
+    width: 650px;
+    height: 250px;
+}
+.registro{
+    width: 250px;
+    float: right;
+    display: flex;
+}
+.registro input{
+    width: 150px;
+    height: 25px;
+    display: flex;
+    border-radius: 10px;
+    float: right;
+}
+.nombre{
+    margin: 0 20px;
+    width: 250px;
+    float: left;
+    display: flex;
+}
+.nombre input{
+    width: 150px;
+    height: 25px;
+    display: flex;
+    border-radius: 10px;
+    float: right;
+}
+.detalle{
+    margin: 10px 0;
+    width: 250px;
+    float: right;
+    display: flex;
+}
+.detalle input{
+    width: 150px;
+    height: 25px;
+    display: flex;
+    border-radius: 10px;
+}
+.cantidad{
+    margin: 10px 20px;
+    width: 250px;
+    float: left;
+    display: flex;
+}
+.cantidad input{
+    width: 150px;
+    height: 25px;
+    display: flex;
+    border-radius: 10px;
+    float: right;
+}
+.marca{
+    margin: 10px 0;
+    width: 250px;
+    float: right;
+    display: flex;
+}
+.marca input{
+    width: 150px;
+    height: 25px;
+    display: flex;
+    border-radius: 10px;
+}
+.stock{
+    margin: 10px 20px;
+    width: 250px;
+    float: left;
+    display: flex;
+}
+.stock input{
+    width: 150px;
+    height: 25px;
+    display: flex;
+    border-radius: 10px;
+    float: right;
+}
+.precio{
+    margin: 10px 0;
+    width: 250px;
+    float: right;
+    display: flex;
+}
+.precio input{
+    width: 150px;
+    height: 25px;
+    display: flex;
+    border-radius: 10px;
+}
+.categoria{
+    margin: 10px 20px;
+    width: 250px;
+    float: left;
+    display: flex;
+}
+.categoria input{
+    width: 150px;
+    height: 25px;
+    display: flex;
+    border-radius: 10px;
+    float: right;
+}
+.lote{
+    margin: 10px 20px;
+    width: 250px;
+    float: left;
+    display: flex;
+}
+.lote input{
+    width: 150px;
+    height: 25px;
+    display: flex;
+    border-radius: 10px;
+    float: right;
 }
 label{
-    margin:20px;
+    margin: auto;
     color: blue;
+    width: 100px;
 }
-input[type="text"]{
-    margin: 10px;
+.botones{
+    margin: 0px 350px;;
+    width: 100%;
 }
  input[type="submit"]{
     margin: 20px;
-    width: 11.3%;
- height: 25px;
+    width: 7.2%;
+    height: 25px;
     background: linear-gradient(#2929bf,#7c94cb);
     border:5px;
     color: black;
@@ -26,12 +151,11 @@ input[type="text"]{
 
 
 
-table {     
-    
+table {   
     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
     font-size: 12px;      
-    width: 70%; 
-    margin: 20px 20px;
+    width: 1000px; 
+    margin: 20px auto;
     text-align: left;    
     border-collapse: collapse; 
 }
@@ -52,6 +176,24 @@ td {
     border-bottom: 1px solid #fff;
     color: #669;    
     border-top: 1px solid transparent; 
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(#0000ff,#1347b9);
+    color: azure;
+    opacity: 5%;
+    height: 30px;
+}
+input[type="submit"]:active {
+    transform: scale(0.95);
+}
+
+input[type="text"]:hover {
+    background: black;
+    color: azure;
+    opacity: 5%;
+    height: 25px;
+    width: 200px;erohjt
 }
 
 tr:hover td { 

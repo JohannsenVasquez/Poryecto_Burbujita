@@ -3,19 +3,31 @@
     padding: 0;
     font-family: sans-serif;
     box-sizing: border-box;
+
 }
 
 
-
+body{
+    background-image: url(../login/images/logo%205a.png);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+}
 .principal{
     width: 400px;
-    height: 400px;
+    height: 420px;
     min-height: 100px;
     margin: 120px auto;
     font-family: 'roboto', cursive, arial;
-    border-radius: 10px;
+    background: rgba(0,0,0,0.2);
 }
-
+.principal img{
+    width: 120px;
+    height: 120px;
+    margin-top: -120px;
+    margin-left: 140px;
+    border-radius: 50%;
+}
 
 h3{
     text-align: center;
@@ -60,7 +72,9 @@ input[type="submit"] {
     margin-bottom: 10px;
     margin-left: 120px;
 }
-
+.text .ingresar{
+     text-decoration: none;
+}
 .text .password{
     margin-left: 20px;
     text-decoration: none;
@@ -81,13 +95,11 @@ input[type="submit"]:hover {
 input[type="texto"]:hover {
     background: #807b7b;
     color: white;
-    padding: 8px;
+
     opacity: 5%;
 }
 input[type="Password"]:hover {
-      background: #807b7b;
-    padding: 8px;
-    color: white;
+    background: #807b7b;
     opacity: 5%;
 }
 
@@ -95,15 +107,34 @@ input[type="submit"]:active {
     transform: scale(0.95);
 }
 
+input[type="texto"]:focus {
+    background: black;
+    color: white;
+    padding: 8px;
+    opacity: 5%;
+}
+
+input[type="Password"]:focus {
+    background: black;
+    padding: 8px;
+    color: white;
+    opacity: 5%;
+}
+
+
 @media(max-width:768px){
     .principal{
-      width: 60%;
+      width: 75%;
     }
 }
 
 @media(max-width:480px){
     .principal{
-      width: 85%;
+      width: 95%;
+    }
+    a{
+
+        width: 50%;
     }
 }
 
