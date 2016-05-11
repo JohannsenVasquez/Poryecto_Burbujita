@@ -10,136 +10,122 @@ h3{
     color: blue;
     text-align: center;
 }
-.reg{
-    margin: 0 auto;
-    width: 650px;
-    height: 250px;
+h4{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    color: grey;
+    text-align: center;
 }
-.registro{
-    width: 250px;
-    float: right;
-    display: flex;
+.menu{
+    width: 400px;
+    height: 430px;
+    background: rgba(0,0,0,0.05);
+    margin: 10px 10px;
 }
-.registro input{
-    width: 150px;
-    height: 25px;
-    display: flex;
-    border-radius: 10px;
-    float: right;
-}
+
 .nombre{
-    margin: 0 20px;
+    margin: -150px 40px;
     width: 250px;
     float: left;
     display: flex;
 }
+
 .nombre input{
-    width: 150px;
+    width: 200px;
     height: 25px;
     display: flex;
     border-radius: 10px;
     float: right;
 }
 .detalle{
-    margin: 10px 0;
+    margin: -100px 40px;
     width: 250px;
-    float: right;
+    float: left;
     display: flex;
 }
 .detalle input{
-    width: 150px;
+    width: 200px;
     height: 25px;
     display: flex;
     border-radius: 10px;
 }
 .cantidad{
-    margin: 10px 20px;
+    margin: -50px 40px;
     width: 250px;
     float: left;
     display: flex;
 }
 .cantidad input{
-    width: 150px;
+    width: 200px;
     height: 25px;
     display: flex;
     border-radius: 10px;
     float: right;
 }
 .marca{
-    margin: 10px 0;
-    width: 250px;
-    float: right;
-    display: flex;
-}
-.marca input{
-    width: 150px;
-    height: 25px;
-    display: flex;
-    border-radius: 10px;
-}
-.stock{
-    margin: 10px 20px;
+   margin: 0px 40px;
     width: 250px;
     float: left;
     display: flex;
 }
-.stock input{
-    width: 150px;
+.marca input{
+    width: 200px;
     height: 25px;
     display: flex;
     border-radius: 10px;
-    float: right;
 }
 .precio{
-    margin: 10px 0;
+    margin: 20px 40px;
     width: 250px;
-    float: right;
+    float: left;
     display: flex;
 }
 .precio input{
-    width: 150px;
+    width: 200px;
     height: 25px;
     display: flex;
     border-radius: 10px;
 }
 .categoria{
-    margin: 10px 20px;
+    margin: 0px 40px;
     width: 250px;
     float: left;
     display: flex;
 }
 .categoria input{
-    width: 150px;
+    width: 200px;
     height: 25px;
     display: flex;
     border-radius: 10px;
     float: right;
 }
 .lote{
-    margin: 10px 20px;
+    margin: 20px 40px;
     width: 250px;
     float: left;
     display: flex;
 }
 .lote input{
-    width: 150px;
+    width: 200px;
     height: 25px;
     display: flex;
     border-radius: 10px;
     float: right;
 }
-label{
+.menu label{
     margin: auto;
     color: blue;
     width: 100px;
 }
 .botones{
-    margin: 0px 350px;;
-    width: 100%;
+    margin: 100px 20px 0 0;
+    width: 55%;
+    height: 100px;
+    float: right;
 }
+
  input[type="submit"]{
     margin: 20px;
-    width: 7.2%;
+    width: 10.2%;
     height: 25px;
     background: linear-gradient(#2929bf,#7c94cb);
     border:5px;
@@ -154,10 +140,11 @@ label{
 table {   
     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
     font-size: 12px;      
-    width: 1000px; 
-    margin: 20px auto;
+    width: 900px; 
+    margin: 20px 20px;
     text-align: left;    
-    border-collapse: collapse; 
+    border-collapse: collapse;
+    float: right;
 }
 
 th {     
@@ -193,7 +180,7 @@ input[type="text"]:hover {
     color: azure;
     opacity: 5%;
     height: 25px;
-    width: 200px;erohjt
+    width: 300px;
 }
 
 tr:hover td { 
