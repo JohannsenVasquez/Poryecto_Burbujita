@@ -29,11 +29,9 @@ z-index: 2000px;
 
 .social ul li .icon-facebook2{background: blue;}
 .social ul li .icon-google-plus3{background: red;}
-.social ul li .icon-instagram{background: brown;}
 .social ul li .icon-twitter{background: skyblue;}
-.social ul li .icon-spotify{background: blue;}
 .social ul li .icon-whatsapp{background: green;}
-.social ul li .icon-youtube{background:red;}
+.social ul li .icon-mail{background: grey;}
 
 .social ul li a:hover{
     padding: 14px 40px;

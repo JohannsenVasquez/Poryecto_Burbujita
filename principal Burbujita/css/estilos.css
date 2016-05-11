@@ -8,8 +8,8 @@
 
 body {background:azure;}
 
-.menu_bar {
-	display:none;
+.menu_bar{
+    display: none;
 }
 
 header {
@@ -56,10 +56,9 @@ header nav ul li .children {
 	display: none;
 	background:#011826;
 	position: absolute;
-	width: 150%;
+	width: 180%;
 	z-index:1000;
 }
-
 header nav ul li .children li {
 	display:block;
 	overflow: hidden;
