@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title> Tabla de Registro de M.Arquitectura</title>
     
-    <link rel="stylesheet" href="../STYLES/T.de%20registro%20de%20M.A.css">
+  <link rel="stylesheet" href="../STYLES/T.de%20registro%20de%20M.A.css">
+    <link rel="stylesheet" href="../WEB/style.css">
     
     
 </head>
@@ -13,22 +14,18 @@
 <h1>Tabla de Registros</h1>
 <h2>Materiales de Arquitectura</h2>
 
-
-
-<form action="">
-        <input type="text" placeholder="&#xe901; Añadir Materia " name="materia">
-        <input type="text" placeholder="&#xe900; Editar " name="editar">
-        <input type="text" placeholder="&#xe902; Cancelar " name="cancelar">
-        <input type="text" placeholder="&#xe903; Eliminar " name="eliminar">
-            
-        
+<form action="botones">  
+        <input type="submit" onclick="Añadir()" value="Añadir"> 
+        <input type="submit" onclick="Editar()" value="Editar" >
+        <input type="submit" onclick="Cancelar()" value="Cancelar">
+        <input type="submit" onclick="Guardar()" value="Guardar">
+        <input type="submit" onclick="Eliminar()" value="Eliminar">
+                    
 </form>
 
 
-
 <div>
-<table border="3px">
-          
+<table border="3px"> 
            <tr>
               <td>Nombre del Producto</td>
               <td>STOCK</td>
