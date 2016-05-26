@@ -6,73 +6,102 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/logo%205a.png">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="registro.css">
+    <link rel="stylesheet" href="../Registro producto/estilomenu.css">
+    <link rel="stylesheet" href="../Registro producto/ooooooooo.css">
 </head>
 <body>
-    <h3>Modulo de ventas</h3>
-    <h4>Materiales de Arquitectura</h4>
-    
+   
+     <nav>
+     <div class="padre"><br/>
+       <h1>Registrate</h1>
+       <h3>Es gratis y lo sera siempre</h3>
+       
+        <div class="publico">
+        <input type="text" placeholder=" Nombre">
+        <input type="text" placeholder=" Marca">
+        <input type="text" placeholder=" Detalle">
+        </div>
+        <div class="personales">
+        <input type="text"placeholder=" Precio Compra">
+        <input type="text"placeholder=" Precio Venta">
+        <input type="text" placeholder=" stock">
+        </div>
+        
+        <label for="">Categoria de producto </label>
+        <select name="categoria" id="categoria">
+        <option value="">Categoria</option>
+        <option value="">Carton</option>
+        <option value="">Mdera</option>
+        </select>
+        
+        <div class="fecha">
+        <label for="">Fecha de Registro</label>
+        
+        <select id="Dia" name="Dia">
+        <option value="">Dia</option>
+        <option value="">1</option><option value="">2</option><option value="">3</option> <option value="">4</option><option value="">5</option><option value="">6</option><option value="">7<option value="">8<option value="">9<option value="">10<option value="">11</option><option value="">12</option><option value="">13</option><option value="">14</option><option value="">15</option><option value="">16</option><option value="">17</option><option value="">18</option><option value="">19</option><option value="">20</option><option value="">21</option><option value="">22</option><option value="">23</option><option value="">24</option><option value="">25</option><option value="">26</option><option value="">27</option><option value="">28</option><option value="">29</option><option value="">30</option><option value="">31</option>
+        </select>
+         <select id="Mes" name="Mes">
+        <option value="">Mes</option>
+        <option value="">ene</option><option value="">feb</option><option value="">mar</option><option value="">abr</option><option value="">may</option><option value="">jun</option><option value="">jul</option><option value="">ago</option><option value="">sep</option><option value="">oct</option><option value="">nov</option><option value="">dic</option></select>
+        <select id="Año" name="Año">
+        <option value="">Año</option>
+        <option value="">2016</option><option value="">2015</option><option value="">2014</option><option value="">2013</option>
+        </select>
+        </div>
+        
+         <label href="">¿Confirmar? </label>
+         <label for=""> Si</label>
+         <input type="checkbox">
+         <label for=""> No</label>
+         <input type="checkbox">
+       
+       <div class="aceptar">
+       <p>Al hacer clic en Terminado, aceptas las Condiciones y confirmas que has leído nuestra Política de datos, incluido el Uso de cookies.</p>
+       </div>
+      
+       <div class="terminado">
+       <input type="submit" value="terminado">
+       </div>
+        <p>______________________________________________</p>
+        <div class="fin">
+       <p><a href="">Crea una página</a> para un personaje público, un grupo de música o un negocio.</p>
+       </div>
+        
+    </div>
+</nav>
     <div class="botones">
-    <input type="submit" value="Guardar">
+    <h3>Modulo de Registro</h3>
+    <br/>
+    <h4>Materiales de Arquitectura</h4>
+    <div class="subotones">
     <input type="submit" value="Editar">
     <input type="submit" value="Eliminar">
     <input type="submit" value="Cancelar">
     <input type="submit" value="Agregar">
+    </div>
 </div>
   
 <table>
-<caption>Contenido nutricional por cada 100 g de alimento.</caption>
-<tr> <th>NOMBRE</th> <th>N° REGISTRO</th> <th>CANTIDAD</th>
-<th>DETALLE</th> <th>STOCK</th><th>MARCA</th><th>CATEGORIA</th>
- <th>PRECIO</th><th>N° LOTE</th>
+<caption>Tabla de Productos registrados en Materiales de arquitectura</caption>
+<tr> <th>N: REG</th><th>NOMBRE</th> <th>MARCA</th> <th>DETALLE</th><th> PRECIO COMPRA</th><th>PRECIO VENTA</th><th>STOCK</th>
+ <th>CATEGORIA</th><th>FECHA REG.</th>
 </tr>
-<tr> <td>Arándano</td> <td>49</td> <td>0.2</td>
-<td>0.4</td> <td>12.7</td><td>49</td> <td>0.2</td>
-<td>0.4</td> <td>12.7</td>
+<tr> <td>1</td> <td>Carton</td> <td>first</td><td>10 cm x 100cm</td> <td>S/.12.70</td><td>S/.15.00</td><td>50 U</td><td>Carton</td> <td>12.7</td>
 </tr>
-<tr> <td>Plátano</td> <td>90</td> <td>0.3</td>
-<td>1.0</td> <td>23.5</td><td>90</td> <td>0.3</td>
-<td>1.0</td> <td>23.5</td>
+<tr> <td>2</td> <td>Carton</td> <td>first</td><td>50 cm x 100cm</td> <td>S/.19.70</td><td>S/.22.70</td> <td>100 U</td><td>Carton</td> <td>23.5</td>
 </tr>
-<tr> <td>Cereza</td> <td>46</td> <td>0.4</td>
-<td>0.9</td> <td>10.9</td><td>46</td> <td>0.4</td>
-<td>0.9</td> <td>10.9</td>
+<tr> <td>3</td> <td>Tripley</td> <td>nose</td><td>1 plancha</td> <td>S/.24.70</td><td>S/.28.70</td> <td>50 U</td><td>Madera</td> <td>10.9</td>
 </tr>
-<tr> <td>Fresa</td> <td>37</td> <td>0.5</td>
-<td>0.8</td> <td>8.3</td><td>37</td> <td>0.5</td>
-<td>0.8</td> <td>8.3</td>
+<tr> <td>4</td> <td>Carton</td> <td>first</td><td>10 cm x 100cm</td> <td>S/.12.70</td><td>S/.15.00</td><td>50 U</td><td>Carton</td> <td>12.7</td>
+</tr>
+<tr> <td>5</td> <td>Carton</td> <td>first</td><td>50 cm x 100cm</td> <td>S/.19.70</td><td>S/.22.70</td> <td>100 U</td><td>Carton</td> <td>Carton</td>
+</tr>
+<tr> <td>6</td> <td>Tripley</td> <td>nose</td><td>1 plancha</td> <td>S/.24.70</td><td>S/.28.70</td> <td>50 U</td><td>Madera</td> <td>10.9</td>
+</tr>
+<tr> <td>7</td> <td>Carton</td> <td>first</td><td>10 cm x 100cm</td> <td>S/.12.70</td><td>S/.15.00</td><td>50 U</td><td>Carton</td> <td>12.7</td>
 </tr>
 </table>
    
-    <div class="menu">
-    <div class="nombre">
-        <label>Nombre:</label>
-        <input type="text">
-        </div>
-        <div class="detalle">
-        <label>Detalle:</label>
-        <input type="text">
-        </div>
-        <div class="cantidad">
-        <label>Cantidad:</label>
-        <input type="text">
-        </div>
-        <div class="marca">
-        <label>Marca:</label>
-        <input type="text">
-        </div>
-        <div class="precio">
-         <label>Precio S/.:</label>
-        <input type="text">
-        </div>
-        <div class="categoria">
-        <label>Categoria:</label>
-        <input type="text">
-        </div>
-        <div class="lote">
-        <label>N° Lote:</label>
-        <input type="text">
-    </div>
-    </div>
-
 </body>
 </html>

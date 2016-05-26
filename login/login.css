@@ -20,6 +20,8 @@ body{
     margin: 120px auto;
     font-family: 'roboto', cursive, arial;
     background: rgba(0,0,0,0.02);
+    border: 2px solid #9da4af;
+    border-radius:
 }
 .principal img{
     width: 120px;
