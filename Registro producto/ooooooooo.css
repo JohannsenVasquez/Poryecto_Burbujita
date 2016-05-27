@@ -31,6 +31,11 @@ h1{
     font-size: 17px;
 }
 
+.categoria select{
+    width: 220px;
+    height: 25px;
+}
+
 .fecha label{
     width: 100%;
     display: block;
@@ -67,14 +72,4 @@ input[type="checkbox"]{
     border: none;
     border-radius: 5px;
     font-size: 20px;
-}
-
-.fin{
-    width: 340px;
-    margin: 10px 0px 0px 0px;
-}
-
-.fin a{
-    color: blue;
-    font-size: 16px;
 }

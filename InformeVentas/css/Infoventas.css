@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #d9d6d6;
+}
+
+.principal{
+   width: 90%;
+    height: 400px;
+   background: white;
+    margin: 8% auto;
+    border: 15px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.lista{
+    height: 60px;
+    background: #aca6a6;
+}
+
+.lista h3{
+    width: 200px;
+    height: 100%;
+    background: #aca6a6;
+    margin: 0px 0px 0px 50px;
+    display: block;
+    text-align: center;
+    margin-top: 50%;
+}
+
+.icono{
+    width: 50px;
+    height: 100%;
+    background: yellow;
+}
+
+.icono3{
+    width: 50px;
+    height: 100%;
+    float: right;
+    margin: -60px;
+    margin-right: 0px;
+    background: blue
+}
+.icono2{
+    width: 50px;
+    height: 100%;
+    float: right;
+    margin: -60px;
+    margin-right: 50px;
+    background: red
+}
+.icono1{
+    width: 50px;
+    height: 100%;
+    float: right;
+    margin: -60px;
+    margin-right: 100px;
+    background: black
+}
+
+.categoria{
+    height: 50px;
+    background: white;
+}
+
+.categoria select{
+    width: 150px;
+    height: 23px;
+    margin: 18px;
+}
+.categoria label{
+    width: 150px;
+    margin: 18px;
+    background: white;
+}
+.categoria input{
+    height: 23px;
+}
+
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    text-align: left;
+    border-collapse: collapse;
+    width: 97%;
+    height: 60px;
+    margin: 20px auto;
+}
+
+th {
+    font-size: 13px;
+    font-weight: normal;
+    padding: 5px;
+    background: #b5b6b9;
+    border-top: 2px solid #aabcfe;
+    border-bottom: 1px solid #fff;
+    color: blue;
+    text-align: center
+}
+
+td {
+    padding: 5px;
+    background: #ebedf2;
+    border-bottom: 1px solid black;
+    color: #669;
+    border-top: 1px solid transparent;
+}
+tr:hover td {
+    background: #b5b6b9;
+    color: #339;
+}
+
+.info{
+    width: 97%;
+    height: 30px;
+    margin: -20px auto;
+}
+
+.info p{
+    margin: -13px 0px 0px 10px;;
+}
