@@ -1,0 +1,42 @@
+html:
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Johannsen Vasquez</title>
+    <script src="../js/miJS.js"></script>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    
+    <h1>Semana Jubilar de la FIA</h1>
+    <h2>Ten ConFIAnza</h2> 
+       
+    <br><br>
+    <input id="change" type="button" onclick="ANIVERSARIO()" value="Boton Prompt">
+    
+    
+</body>
+</html>
+
+
+
+JAVA SCRIPT
+
+
+function ANIVERSARIO(){
+    //vamos a ingrsar un mensaje para mostrar al alumno
+    var aniversario = prompt ("Ya has pagado para tu semana jubilar"," ");
+    //vamos a detectar si el usuario ingreso su respuesta
+    if (aniversario != null){
+    alert("Tu respuesta que ingresaste es: "+aniversario);
+}
+
+//ahora en caso que no ingreso un valor
+else{
+    alert("No ingresaste tu respuesta")
+}
+    
+}

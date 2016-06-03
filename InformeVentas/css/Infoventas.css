@@ -7,7 +7,7 @@
 .principal{
    width: 90%;
     height: 400px;
-   background: white;
+    background: white;
     margin: 8% auto;
     border: 15px;
     border-color: black;
@@ -16,50 +16,99 @@
 
 .lista{
     height: 60px;
-    background: #aca6a6;
+    background: #effcfc;
 }
 
 .lista h3{
     width: 200px;
     height: 100%;
-    background: #aca6a6;
-    margin: 0px 0px 0px 50px;
+    background: #effcfc;
+    margin-left: 70px;
     display: block;
     text-align: center;
-    margin-top: 50%;
+    font-size: 25px;
 }
 
 .icono{
-    width: 50px;
+    width: 80px;
     height: 100%;
-    background: yellow;
+    background: #effcfc;
+    margin-left: 20px;
 }
 
 .icono3{
-    width: 50px;
+    width: 80px;
     height: 100%;
     float: right;
     margin: -60px;
     margin-right: 0px;
-    background: blue
+    background: #effcfc;
 }
-.icono2{
-    width: 50px;
-    height: 100%;
-    float: right;
-    margin: -60px;
-    margin-right: 50px;
-    background: red
-}
-.icono1{
-    width: 50px;
-    height: 100%;
-    float: right;
-    margin: -60px;
-    margin-right: 100px;
-    background: black
+.lista .icono3 .icon-facebook2{
+    background: red;
+    width: 40px;
+    height: 80%;
+    margin: 2px auto;
 }
 
+.icono3 h4{
+    color: blue;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 30%;
+        background: #effcfc;
+}
+
+.lista a{
+  text-decoration: none;
+}
+.icono2{
+    width: 80px;
+    height: 100%;
+    float: right;
+    margin: -60px;
+    margin-right: 80px;
+   background: #effcfc;
+
+}
+.icono2 span{
+    background: red;
+    width: 40px;
+    height: 80%;
+    margin: 2px auto;
+}
+
+.icono2 h4{
+    color: blue;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 30%;
+    background: #effcfc;
+}
+
+
+.icono1{
+    width: 80px;
+    height: 100%;
+    float: right;
+    margin: -60px;
+    margin-right: 160px;
+    background: #effcfc;
+}
+.icono1 span{
+    background: red;
+    width: 40px;
+    height: 80%;
+    margin: 2px auto;
+}
+
+.icono1 h4{
+    color: blue;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 30%;
+    background: #effcfc;
+}
 .categoria{
     height: 50px;
     background: white;
@@ -69,6 +118,7 @@
     width: 150px;
     height: 23px;
     margin: 18px;
+    background: #effcfc;
 }
 .categoria label{
     width: 150px;
@@ -93,22 +143,21 @@ th {
     font-size: 13px;
     font-weight: normal;
     padding: 5px;
-    background: #b5b6b9;
+    background: #effcfc;
     border-top: 2px solid #aabcfe;
     border-bottom: 1px solid #fff;
     color: blue;
-    text-align: center
 }
 
 td {
     padding: 5px;
-    background: #ebedf2;
+    background: #ffffff;
     border-bottom: 1px solid black;
     color: #669;
     border-top: 1px solid transparent;
 }
 tr:hover td {
-    background: #b5b6b9;
+    background: #effcfc;
     color: #339;
 }
 
@@ -116,8 +165,10 @@ tr:hover td {
     width: 97%;
     height: 30px;
     margin: -20px auto;
+    background: #effcfc;
 }
 
 .info p{
-    margin: -13px 0px 0px 10px;;
+    margin: -13px 0px 0px 10px;
+    background: #effcfc;
 }

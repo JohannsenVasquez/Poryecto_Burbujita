@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista Clientes</title>
+    <link rel="stylesheet" href="../css/listaClientes.css">
+    <script type="text/javascript" src="../js/lista.js"></script>
+</head>
+<body>
+
+  <div id="bgventana">
+      <div id="ventana">
+          <form action="metodo.php" method="post" id="miform">
+             <div class="var">
+              <label for="">Nombre</label>
+              <input id="nombre" type="text" name="nombre">
+              </div>
+              <div class="var">
+              <label for="">Apellidos</label>
+              <input id="apellidos" type="text" name="apellidos">
+              </div>
+              <div class="var">
+              <label for="">Direccion</label>
+              <input id="direccion" type="text" name="direccion">
+              </div>
+              <div class="var">
+              <label for="">Telefono</label>
+              <input id="telefono" type="text" name="telefono">
+              </div>
+              <div class="var">
+              <label for="">Dni</label>
+              <input id="dni" type="text" name="dni">
+              </div>
+              <input id="valor" type="button" value="Enviar Datos" onclick="enviar()">
+          </form>
+          <a href="javascript: desplegar('hidden');"><input id="valores" type="button" value="cerrar"></a>
+      </div>
+  </div>
+
+   <div class="buscar">
+       <br/><h1>Listado de clientes</h1>
+       <input id="buscar" type="text" placeholder="Buscar por apellidos o codigo">
+       <input type="Submit" value="Buscar">
+   </div>
+   <div class="nuevo">
+   <a href="javascript:desplegar('visible');"><input type="submit" value="Nuevo"></a>
+   </div>
+   <table>
+       <tr>
+           <th id="tb_codigo">Codigo</th>
+           <th id="tb_nombres">Apellidos Y Nombres</th>
+           <th id="tb_direccion">Direccion</th>
+           <th id="tb_telefono">Telefono</th>
+           <th id="tb_dni">Dni</th>
+           <th id="tb_acciones">Acciones</th>
+       </tr>
+       <tr>
+           <td id="tabla">01</td>
+           <td id="tabla">Huamanta Edquen Alis .........</td>
+           <td id="tabla">Jr. Los Matrire #251................</td>
+           <td id="tabla">987654321.........</td>
+           <td id="tabla">98677843...</td>
+           <td ><input id="actualizar" type="submit" value="Eliminar"><input id="eliminar" type="submit" value="Actualizar"></td>
+       </tr>
+     <tr>
+           <td id="tabla">02</td>
+           <td id="tabla">Huamanta Edquen Alis .........</td>
+           <td id="tabla">Jr. Los Matrire #251................</td>
+           <td id="tabla">987654321.........</td>
+           <td id="tabla">98677843...</td>
+           <td ><input id="actualizar" type="submit" value="Eliminar"><input id="eliminar" type="submit" value="Actualizar"></td>
+       </tr>
+       <tr>
+           <td id="tabla">03</td>
+           <td id="tabla">Huamanta Edquen Alis .........</td>
+           <td id="tabla">Jr. Los Matrire #251................</td>
+           <td id="tabla">987654321.........</td>
+           <td id="tabla">98677843...</td>
+           <td ><input id="actualizar" type="submit" value="Eliminar"><input id="eliminar" type="submit" value="Actualizar"></td>
+       </tr>
+       <tr>
+           <td id="tabla">04</td>
+           <td id="tabla">Huamanta Edquen Alis .........</td>
+           <td id="tabla">Jr. Los Matrire #251................</td>
+           <td id="tabla">987654321.........</td>
+           <td id="tabla">98677843...</td>
+           <td ><input id="actualizar" type="submit" value="Eliminar"><input id="eliminar" type="submit" value="Actualizar"></td>
+       </tr>
+       <tr>
+           <td id="tabla">05</td>
+           <td id="tabla">Huamanta Edquen Alis .........</td>
+           <td id="tabla">Jr. Los Matrire #251................</td>
+           <td id="tabla">987654321.........</td>
+           <td id="tabla">98677843...</td>
+           <td ><input id="actualizar" type="submit" value="Eliminar"><input id="eliminar" type="submit" value="Actualizar"></td>
+       </tr>
+
+   </table>
+
+</body>
+</html>
