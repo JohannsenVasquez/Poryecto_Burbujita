@@ -1,0 +1,75 @@
+.padre{
+    background: rgba(0,0,0,0.02);
+    margin: 0px 0px 0px 50px;
+    width: 380px;
+    float: left;
+}
+h3{
+    margin-top: 10px;
+}
+h1{
+    text-align: center;
+}
+
+.personales{
+    margin: 20px 0px 10px 0px;
+    width: 450px;
+}
+.personales input{
+    font-size: 17px;
+    margin: -10px 10px 20px 0px;
+    width: 180px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.publico input{
+    margin: 10px 0px 0px 0px;
+    width: 375px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.categoria select{
+    width: 220px;
+    height: 25px;
+}
+
+.fecha label{
+    width: 100%;
+    display: block;
+    margin: 10px 0px 8px 0px;
+}
+.fecha select{
+    width: 60px;
+    height: 30px;
+    margin: none;
+    
+}
+.fecha a{
+    color: blue;
+    font-size: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+input[type="radio"]{
+    margin: 10px 5px 0px 0px;
+}
+
+.aceptar p{
+    margin: 10px 0px 10px 0px;
+    font-size: 11.3px;
+    width: 290px;
+}
+
+.terminado input{
+    margin: 10px 5px 0px 0px;
+    height: 40px;
+    width: 200px;
+    background: green;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}

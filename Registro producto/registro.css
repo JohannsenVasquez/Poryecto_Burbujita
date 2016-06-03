@@ -1,8 +1,9 @@
 /* Curso CSS estilos aprenderaprogramar.com*/
-body {
-  background: azure;
-    padding: 0px;
-    margin: 0px;
+body{
+    /*background-image: url(../login/images/logo%205a.png);*/
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
 }
 
 h3{
@@ -15,124 +16,37 @@ h4{
     color: grey;
     text-align: center;
 }
-.menu{
-    width: 400px;
-    height: 430px;
-    background: rgba(0,0,0,0.05);
-    margin: 10px 10px;
-}
 
-.nombre{
-    margin: -150px 40px;
-    width: 250px;
-    float: left;
-    display: flex;
-}
-
-.nombre input{
-    width: 200px;
-    height: 25px;
-    display: flex;
-    border-radius: 10px;
-    float: right;
-}
-.detalle{
-    margin: -100px 40px;
-    width: 250px;
-    float: left;
-    display: flex;
-}
-.detalle input{
-    width: 200px;
-    height: 25px;
-    display: flex;
-    border-radius: 10px;
-}
-.cantidad{
-    margin: -50px 40px;
-    width: 250px;
-    float: left;
-    display: flex;
-}
-.cantidad input{
-    width: 200px;
-    height: 25px;
-    display: flex;
-    border-radius: 10px;
-    float: right;
-}
-.marca{
-   margin: 0px 40px;
-    width: 250px;
-    float: left;
-    display: flex;
-}
-.marca input{
-    width: 200px;
-    height: 25px;
-    display: flex;
-    border-radius: 10px;
-}
-.precio{
-    margin: 20px 40px;
-    width: 250px;
-    float: left;
-    display: flex;
-}
-.precio input{
-    width: 200px;
-    height: 25px;
-    display: flex;
-    border-radius: 10px;
-}
-.categoria{
-    margin: 0px 40px;
-    width: 250px;
-    float: left;
-    display: flex;
-}
-.categoria input{
-    width: 200px;
-    height: 25px;
-    display: flex;
-    border-radius: 10px;
-    float: right;
-}
-.lote{
-    margin: 20px 40px;
-    width: 250px;
-    float: left;
-    display: flex;
-}
-.lote input{
-    width: 200px;
-    height: 25px;
-    display: flex;
-    border-radius: 10px;
-    float: right;
-}
 .menu label{
     margin: auto;
     color: blue;
     width: 100px;
 }
 .botones{
-    margin: 100px 20px 0 0;
-    width: 55%;
-    height: 100px;
+    margin: 10px 20px 20px 0;
+    width: 800px; 
+    height: auto;
     float: right;
+    margin-right: 50px;
+}
+.botones h3,h4{
+    text-align: center;
+}
+.subotones{
+    width: 700px;
+    margin: 0 auto;
 }
 
  input[type="submit"]{
-    margin: 20px;
-    width: 10.2%;
-    height: 25px;
+     margin-left: 50px;
+    margin: 20px 40px;
+    width: 90px;
+    height: 30px;
     background: linear-gradient(#2929bf,#7c94cb);
     border:5px;
     color: black;
     opacity: 0.8;
-    border-radius: 20px;
-    margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 
@@ -140,8 +54,9 @@ h4{
 table {   
     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
     font-size: 12px;      
-    width: 900px; 
-    margin: 20px 20px;
+    width: 800px; 
+    margin: 20px 20px 0 20px;
+     margin-right: 50px;
     text-align: left;    
     border-collapse: collapse;
     float: right;
@@ -169,18 +84,10 @@ input[type="submit"]:hover {
     background: linear-gradient(#0000ff,#1347b9);
     color: azure;
     opacity: 5%;
-    height: 30px;
+    height: 35px;
 }
 input[type="submit"]:active {
     transform: scale(0.95);
-}
-
-input[type="text"]:hover {
-    background: black;
-    color: azure;
-    opacity: 5%;
-    height: 25px;
-    width: 300px;
 }
 
 tr:hover td { 
